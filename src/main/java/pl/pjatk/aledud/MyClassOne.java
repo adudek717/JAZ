@@ -8,6 +8,7 @@ public class MyClassOne {
     private float number;
     @Value("${my.custom.property}") private String someText;
     @Value("${my.radom:my default value}") private String someRadom;
+    @Value("${my.zadanieDomowe:false}") private Boolean zadanieDomowe;
 
     public MyClassOne(int id, String name, float number) {
         this.id = id;
